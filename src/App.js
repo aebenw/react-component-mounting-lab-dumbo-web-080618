@@ -12,7 +12,17 @@ class App extends Component {
 
   //Your code here:
 
+componentDidMount(){
+//   The App component is keeping track of timers using an array of random ID numbers. This allows for easy removal and addition of Timer components.
+//
+// In App, write a componentDidMount method that invokes the existing handleAddTimer class method.
+this.handleAddTimer()
+console.log(this.state)
+}
 
+componentWillUnmount(){
+
+}
 
 
 
